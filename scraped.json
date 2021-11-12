@@ -1,137 +1,1885 @@
 [
   {
-    "title": "Alphabetic list of Theories",
-    "url": "https://changingminds.org/explanations/theories/a_alphabetic.htm",
-    "description": "All the"
-  },
-  {
     "title": "Motivation",
     "url": "https://changingminds.org/explanations/theories/a_motivation.htm",
-    "description": "Basic systems that get us going"
+    "description": "Basic systems that get us going \n  (and keep us going).",
+    "theories": [
+      {
+        "title": "Acquired Needs Theory",
+        "url": "https://changingminds.org/explanations/theories/acquired_needs.htm",
+        "description": "we seek power,\n    achievement or affiliation."
+      },
+      {
+        "title": "Activation \nTheory",
+        "url": "https://changingminds.org/explanations/theories/activation_theory.htm",
+        "description": "We have a need for arousal."
+      },
+      {
+        "title": "Affect Perseverance",
+        "url": "https://changingminds.org/explanations/theories/affect_perseverance.htm",
+        "description": "Preference persists \n  after disconfirmation."
+      },
+      {
+        "title": "Attitude-Behavior Consistency",
+        "url": "https://changingminds.org/explanations/theories/attitude_behavior_consistency.htm",
+        "description": "factors that align attitude and behavior."
+      },
+      {
+        "title": "Attribution Theory",
+        "url": "https://changingminds.org/explanations/theories/attribution_theory.htm",
+        "description": "&nbsp;we need to\n    attribute cause, that supports our ego."
+      },
+      {
+        "title": "Cognitive Dissonance",
+        "url": "https://changingminds.org/explanations/theories/cognitive_dissonance.htm",
+        "description": "non-alignment is\n    uncomfortable."
+      },
+      {
+        "title": "Cognitive Evalution Theory",
+        "url": "https://changingminds.org/explanations/theories/cognitive_evaluation.htm",
+        "description": "we\n    select tasks based on how doable they are."
+      },
+      {
+        "title": "Consistency Theory",
+        "url": "https://changingminds.org/explanations/theories/consistency_theory.htm",
+        "description": "we seek the comfort of\n    internal alignment."
+      },
+      {
+        "title": "Control Theory",
+        "url": "https://changingminds.org/explanations/theories/control.htm",
+        "description": "we seek to control the world around\nus."
+      },
+      {
+        "title": "Disconfirmation bias",
+        "url": "https://changingminds.org/explanations/theories/disconfirmation_bias.htm",
+        "description": "Agreeing with what \n  supports beliefs and vice versa."
+      },
+      {
+        "title": "Drive \nTheory",
+        "url": "https://changingminds.org/explanations/theories/drive.htm",
+        "description": "We seek to satisfy needs."
+      },
+      {
+        "title": "Endowed \nProgress Effect",
+        "url": "https://changingminds.org/explanations/theories/endowed_progress.htm",
+        "description": "Progress is motivating."
+      },
+      {
+        "title": "ERG Theory",
+        "url": "https://changingminds.org/explanations/theories/erg_theory.htm",
+        "description": "We seek to fulfill needs of\n    existence, relatedness and growth."
+      },
+      {
+        "title": "Escape Theory",
+        "url": "https://changingminds.org/explanations/theories/escape_theory.htm",
+        "description": "We seek to escape uncomfortable realities."
+      },
+      {
+        "title": "Expectancy Theory",
+        "url": "https://changingminds.org/explanations/theories/expectancy.htm",
+        "description": "We are motivated by\n    desirable things we expect we can achieve."
+      },
+      {
+        "title": "Extrinsic Motivation",
+        "url": "https://changingminds.org/explanations/theories/extrinsic_motivation.htm",
+        "description": "external: tangible\n    rewards."
+      },
+      {
+        "title": "Goal-Setting Theory",
+        "url": "https://changingminds.org/explanations/theories/goals.htm",
+        "description": "different types of goals motivate us\n    differently."
+      },
+      {
+        "title": "Intrinsic Motivation",
+        "url": "https://changingminds.org/explanations/theories/intrinsic_motivation.htm",
+        "description": "internal:\n    value-based rewards."
+      },
+      {
+        "title": "Investment Model",
+        "url": "https://changingminds.org/explanations/theories/investment_model.htm",
+        "description": "&nbsp;our commitment\n    depends on what we have invested."
+      },
+      {
+        "title": "Opponent-Process Theory",
+        "url": "https://changingminds.org/explanations/theories/opponent-process.htm",
+        "description": "opposite emotions \n  interact."
+      },
+      {
+        "title": "Optimism Bias",
+        "url": "https://changingminds.org/explanations/theories/optimism_bias.htm",
+        "description": "We assume we will be more \nsuccessful than others."
+      },
+      {
+        "title": "Placebo \nEffect",
+        "url": "https://changingminds.org/explanations/theories/placebo_effect.htm",
+        "description": "We believe and respond to fakes."
+      },
+      {
+        "title": "Positive Psychology",
+        "url": "https://changingminds.org/explanations/theories/positive_psychology.htm",
+        "description": "What makes us happy."
+      },
+      {
+        "title": "Reactance Theory",
+        "url": "https://changingminds.org/explanations/theories/reactance.htm",
+        "description": "discomfort when freedom is\n    threatened."
+      },
+      {
+        "title": "Self-Determination \nTheory",
+        "url": "https://changingminds.org/explanations/theories/self-determination.htm",
+        "description": "External and internal motivation."
+      },
+      {
+        "title": "Self-Discrepancy Theory",
+        "url": "https://changingminds.org/explanations/theories/self-discrepancy.htm",
+        "description": "we need\n    beliefs to be consistent."
+      },
+      {
+        "title": "Side Bet Theory",
+        "url": "https://changingminds.org/explanations/theories/side_bet.htm",
+        "description": "aligned side-bets increase \n  commitment to a main bet."
+      },
+      {
+        "title": "The \nTranstheoretical Model of Change",
+        "url": "https://changingminds.org/explanations/theories/transtheoretical_model.htm",
+        "description": "Stages in changing oneself."
+      }
+    ]
   },
   {
     "title": "Belief",
     "url": "https://changingminds.org/explanations/theories/a_belief.htm",
-    "description": "What and how we believe."
+    "description": "What and how we believe.",
+    "theories": [
+      {
+        "title": "Automatic Believing",
+        "url": "https://changingminds.org/explanations/theories/automatic_believing.htm",
+        "description": "we initially\n    believe everything; then we think."
+      },
+      {
+        "title": "Belief Bias",
+        "url": "https://changingminds.org/explanations/theories/belief_bias.htm",
+        "description": "We accept things that fit into \n  our belief systems."
+      },
+      {
+        "title": "Belief Perseverance",
+        "url": "https://changingminds.org/explanations/theories/belief_perseverance.htm",
+        "description": "once formed, a\n    belief will persist."
+      },
+      {
+        "title": "Conversion",
+        "url": "https://changingminds.org/explanations/theories/conversion.htm",
+        "description": "beliefs can change suddenly when\n    we see the light."
+      },
+      {
+        "title": "Disconfirmation bias",
+        "url": "https://changingminds.org/explanations/theories/disconfirmation_bias.htm",
+        "description": "Agreeing with what \n  supports beliefs and vice versa."
+      },
+      {
+        "title": "Fowler's Faith Stage Theory",
+        "url": "https://changingminds.org/explanations/learning/fowler_stage.htm",
+        "description": "stages of different levels of religious belief."
+      },
+      {
+        "title": "Just-world phenomenon",
+        "url": "https://changingminds.org/explanations/theories/just_world.htm",
+        "description": "Good and bad will be \n  rewarded and punished."
+      },
+      {
+        "title": "Placebo \nEffect",
+        "url": "https://changingminds.org/explanations/theories/placebo_effect.htm",
+        "description": "We believe and respond to fakes."
+      },
+      {
+        "title": "Polarization",
+        "url": "https://changingminds.org/explanations/theories/polarization.htm",
+        "description": "Taking increasingly extreme views."
+      },
+      {
+        "title": "Schema",
+        "url": "https://changingminds.org/explanations/theories/schema.htm",
+        "description": "we believe our internal models are\n    accurate."
+      },
+      {
+        "title": "Selective Perception",
+        "url": "https://changingminds.org/explanations/theories/selective_perception.htm",
+        "description": "we see things\n    through beliefs, not as they really are."
+      },
+      {
+        "title": "Source Credibility",
+        "url": "https://changingminds.org/explanations/theories/source_credibility.htm",
+        "description": "Who we are likely to \n  believe."
+      }
+    ]
   },
   {
     "title": "Meaning",
     "url": "https://changingminds.org/explanations/theories/a_meaning.htm",
-    "description": "How we make sense of the world and"
+    "description": "How we make sense of the world and \n  infer meaning.",
+    "theories": [
+      {
+        "title": "Amplification \nHypothesis",
+        "url": "https://changingminds.org/explanations/theories/amplification_hypothesis.htm",
+        "description": "Certainty hardens attitude."
+      },
+      {
+        "title": "Attribution Theory",
+        "url": "https://changingminds.org/explanations/theories/attribution_theory.htm",
+        "description": "&nbsp;We need to\n    attribute cause, that supports our ego."
+      },
+      {
+        "title": "Constructivism",
+        "url": "https://changingminds.org/explanations/theories/constructivism.htm",
+        "description": "We use constructs as\n    perceptual categories."
+      },
+      {
+        "title": "Focusing effect",
+        "url": "https://changingminds.org/explanations/theories/focusing_effect.htm",
+        "description": "We pay more attention to some \n  things than others."
+      },
+      {
+        "title": "Framing",
+        "url": "https://changingminds.org/explanations/theories/framing.htm",
+        "description": "Mental combinations that affect\n    perception."
+      },
+      {
+        "title": "Just-world phenomenon",
+        "url": "https://changingminds.org/explanations/theories/just_world.htm",
+        "description": "Good and bad will be \n  rewarded and punished."
+      },
+      {
+        "title": "Objectification",
+        "url": "https://changingminds.org/explanations/theories/objectification.htm",
+        "description": "&nbsp;We simplify\n    complex things into concrete images."
+      },
+      {
+        "title": "Personal Construct Theory",
+        "url": "https://changingminds.org/explanations/theories/personal_construct.htm",
+        "description": "Constructs that \nrepresent understanding."
+      },
+      {
+        "title": "Positive psychology",
+        "url": "https://changingminds.org/explanations/theories/positive_psychology.htm",
+        "description": "What makes us happy."
+      },
+      {
+        "title": "Schema",
+        "url": "https://changingminds.org/explanations/theories/schema.htm",
+        "description": "Mental structure to organize and interpret the world."
+      },
+      {
+        "title": "Social Representation Theory",
+        "url": "https://changingminds.org/explanations/theories/social_representation.htm",
+        "description": "Special meaning of words to communicate in a group."
+      },
+      {
+        "title": "Speech Act Theory",
+        "url": "https://changingminds.org/explanations/theories/speech_act.htm",
+        "description": "Speaking is acting. \n  Meaning is context-dependent."
+      },
+      {
+        "title": "Story Model",
+        "url": "https://changingminds.org/explanations/theories/story_model.htm",
+        "description": "We piece together complex\n    situations into stories to build understanding."
+      },
+      {
+        "title": "Symbolic Interaction Theory",
+        "url": "https://changingminds.org/explanations/theories/symbolic_interaction.htm",
+        "description": "We\n    derive meaning around symbols."
+      }
+    ]
   },
   {
     "title": "Emotion",
     "url": "https://changingminds.org/explanations/theories/a_emotion.htm",
-    "description": "Affect and what we feel as emotion."
+    "description": "Affect and what we feel as emotion.",
+    "theories": [
+      {
+        "title": "Affect Perseverance",
+        "url": "https://changingminds.org/explanations/theories/affect_perseverance.htm",
+        "description": "Preference persists \n  after disconfirmation."
+      },
+      {
+        "title": "Aggression",
+        "url": "https://changingminds.org/explanations/theories/aggression.htm",
+        "description": "a learned and social act."
+      },
+      {
+        "title": "Appraisal Theory",
+        "url": "https://changingminds.org/explanations/theories/appraisal_theory.htm",
+        "description": "Thinking then \n\tfeeling."
+      },
+      {
+        "title": "Buffer effect of Social Support",
+        "url": "https://changingminds.org/explanations/theories/buffer_effect.htm",
+        "description": "supported people feel less stress."
+      },
+      {
+        "title": "Cannon-Bard Theory of Emotion",
+        "url": "https://changingminds.org/explanations/theories/cannon_bard_emotion.htm",
+        "description": "emotions \nlead to physiological changes."
+      },
+      {
+        "title": "Cognitive Appraisal Theories of\nEmotion",
+        "url": "https://changingminds.org/explanations/theories/cognitive_appraisal_theories.htm",
+        "description": "we decide what to feel after interpreting events."
+      },
+      {
+        "title": "Durability bias",
+        "url": "https://changingminds.org/explanations/theories/durability_bias.htm",
+        "description": "we over-estimate how long \n  emotions will last."
+      },
+      {
+        "title": "Fatigue",
+        "url": "https://changingminds.org/explanations/theories/fatigue.htm",
+        "description": "The effects of tiredness."
+      },
+      {
+        "title": "Focalism",
+        "url": "https://changingminds.org/explanations/theories/focalism.htm",
+        "description": "we think an emotion is driven by a single \n  event."
+      },
+      {
+        "title": "Impact bias",
+        "url": "https://changingminds.org/explanations/theories/impact_bias.htm",
+        "description": "over-estimating the effect of \n  emotional event."
+      },
+      {
+        "title": "James-Lange Theory of Emotion",
+        "url": "https://changingminds.org/explanations/theories/james_lange_emotion.htm",
+        "description": "physiological changes lead to emotions."
+      },
+      {
+        "title": "Love",
+        "url": "https://changingminds.org/explanations/theories/love.htm",
+        "description": "different types of affection."
+      },
+      {
+        "title": "Mood-Congruent Judgment",
+        "url": "https://changingminds.org/explanations/theories/mood_judgment.htm",
+        "description": "Our moods\n    bias our judgments."
+      },
+      {
+        "title": "Mood memory",
+        "url": "https://changingminds.org/explanations/theories/mood_memory.htm",
+        "description": "We recall things that match our\ncurrent mood."
+      },
+      {
+        "title": "Opponent-Process Theory",
+        "url": "https://changingminds.org/explanations/theories/opponent-process.htm",
+        "description": "opposite emotions \n  interact."
+      },
+      {
+        "title": "Social Contagion",
+        "url": "https://changingminds.org/explanations/theories/social_contagion.htm",
+        "description": "we catch emotions\n    from others."
+      },
+      {
+        "title": "Two-Factor Theory of Emotion",
+        "url": "https://changingminds.org/explanations/theories/two-factor_emotion.htm",
+        "description": "we deduce\n    feelings from our situation."
+      }
+    ]
   },
   {
     "title": "Memory",
     "url": "https://changingminds.org/explanations/theories/a_memory.htm",
-    "description": "Memorizing and recall."
+    "description": "Memorizing and recall.",
+    "theories": [
+      {
+        "title": "Availability Heuristic",
+        "url": "https://changingminds.org/explanations/theories/availability_heuristic.htm",
+        "description": "recent\n    events seem more likely."
+      },
+      {
+        "title": "Choice-supportive \nbias",
+        "url": "https://changingminds.org/explanations/theories/choice-supportive_bias.htm",
+        "description": "Distorting memories to make decisions seem good."
+      },
+      {
+        "title": "Counterfactual Thinking",
+        "url": "https://changingminds.org/explanations/theories/counterfactual_thinking.htm",
+        "description": "We can change\n    our own memories."
+      },
+      {
+        "title": "False Memory Syndrome",
+        "url": "https://changingminds.org/explanations/theories/false_memory.htm",
+        "description": "We can create memories\nthat are false."
+      },
+      {
+        "title": "False Recognition",
+        "url": "https://changingminds.org/explanations/theories/false_recognition.htm",
+        "description": "Words can change what we \nremember."
+      },
+      {
+        "title": "Fatigue",
+        "url": "https://changingminds.org/explanations/theories/fatigue.htm",
+        "description": "The effects of tiredness."
+      },
+      {
+        "title": "Hindsight Bias",
+        "url": "https://changingminds.org/explanations/theories/hindsight_bias.htm",
+        "description": "we pretend we remembered\n    everything."
+      },
+      {
+        "title": "Imagined Memory",
+        "url": "https://changingminds.org/explanations/theories/imagined_memory.htm",
+        "description": "Is not as detailed and\nsensory as&nbsp; real memory."
+      },
+      {
+        "title": "Mood memory",
+        "url": "https://changingminds.org/explanations/theories/mood_memory.htm",
+        "description": "We recall things that match our\ncurrent mood."
+      },
+      {
+        "title": "Network Theory",
+        "url": "https://changingminds.org/explanations/theories/network.htm",
+        "description": "Our minds have linked nodes of two\ntypes: semantic and affective."
+      },
+      {
+        "title": "Primacy Effect",
+        "url": "https://changingminds.org/explanations/theories/primacy_effect.htm",
+        "description": "we remember what happened first."
+      },
+      {
+        "title": "Recency Effect",
+        "url": "https://changingminds.org/explanations/theories/recency_effect.htm",
+        "description": "we remember recent stuff."
+      },
+      {
+        "title": "Schema",
+        "url": "https://changingminds.org/explanations/theories/schema.htm",
+        "description": "used to interpret memories."
+      },
+      {
+        "title": "Von Restorff Effect",
+        "url": "https://changingminds.org/explanations/memory/von_restorff.htm",
+        "description": "we remember \n  stuff that stands out."
+      },
+      {
+        "title": "Youth Bias",
+        "url": "https://changingminds.org/explanations/theories/youth_bias.htm",
+        "description": "Remembering when we were \n\tyoung."
+      }
+    ]
   },
   {
     "title": "Attention",
     "url": "https://changingminds.org/explanations/theories/a_attention.htm",
-    "description": "How we pay attention to things"
+    "description": "How we pay attention to things \n  around us.",
+    "theories": [
+      {
+        "title": "Attachment Theory",
+        "url": "https://changingminds.org/explanations/theories/attachment.htm",
+        "description": "we attach to others in \nreciprocal and primitive ways."
+      },
+      {
+        "title": "Confirmation Bias",
+        "url": "https://changingminds.org/explanations/theories/confirmation_bias.htm",
+        "description": "we seek confirmation that\n    we made a good decision."
+      },
+      {
+        "title": "Inattentional \nBlindness",
+        "url": "https://changingminds.org/explanations/theories/inattentional_blindness.htm",
+        "description": "attention to one thing makes us miss another."
+      },
+      {
+        "title": "Information Processing Theory",
+        "url": "https://changingminds.org/explanations/theories/information_processing.htm",
+        "description": "persuasion requires attention and comparison with previous views."
+      },
+      {
+        "title": "Ironic Reversal",
+        "url": "https://changingminds.org/explanations/theories/ironic_reversal.htm",
+        "description": "we cannot avoid\n    thinking about things we want to avoid thinking about."
+      },
+      {
+        "title": "Selective Exposure",
+        "url": "https://changingminds.org/explanations/theories/selective_exposure.htm",
+        "description": "we avoid what\n    will cause dissonance about a decision."
+      }
+    ]
   },
   {
     "title": "Understanding Ourselves",
     "url": "https://changingminds.org/explanations/theories/a_ourselves.htm",
-    "description": "How we perceive ourselves."
+    "description": "How we perceive ourselves.",
+    "theories": [
+      {
+        "title": "Below-Average Effect",
+        "url": "https://changingminds.org/explanations/theories/below-average_effect.htm",
+        "description": "We sometimes think \nwe are below average in some respects."
+      },
+      {
+        "title": "Ben Franklin Effect",
+        "url": "https://changingminds.org/explanations/theories/ben_franklin_effect.htm",
+        "description": "when we do a\n    favor, we like them even more."
+      },
+      {
+        "title": "Bias Blind Spot",
+        "url": "https://changingminds.org/explanations/theories/bias_blind_spot.htm",
+        "description": "We do not compensate enough \nfor our own bias."
+      },
+      {
+        "title": "Choice-supportive \nbias",
+        "url": "https://changingminds.org/explanations/theories/choice-supportive_bias.htm",
+        "description": "Distorting memories to make decisions seem good."
+      },
+      {
+        "title": "Cognitive Appraisal Theories of\n    Emotion",
+        "url": "https://changingminds.org/explanations/theories/cognitive_appraisal_theories.htm",
+        "description": "we decide our feelings after. interpreting events."
+      },
+      {
+        "title": "Discounting",
+        "url": "https://changingminds.org/explanations/theories/discounting.htm",
+        "description": "we underestimate less evident\n    causes of behavior."
+      },
+      {
+        "title": "Durability bias",
+        "url": "https://changingminds.org/explanations/theories/durability_bias.htm",
+        "description": "we over-estimate how long \n  emotions will last."
+      },
+      {
+        "title": "Illusion of asymmetric \ninsight",
+        "url": "https://changingminds.org/explanations/theories/asymmetric_insight.htm",
+        "description": "We think we understand others better than they understand us."
+      },
+      {
+        "title": "Interview Illusion",
+        "url": "https://changingminds.org/explanations/theories/interview_illusion.htm",
+        "description": "after a quick\ndiscussion, we believe we can predict many behaviors."
+      },
+      {
+        "title": "Lake Wobegon effect",
+        "url": "https://changingminds.org/explanations/theories/lake_woebegon.htm",
+        "description": "We over-estimate our \nabilities, especially compared with others."
+      },
+      {
+        "title": "Looking-glass Self",
+        "url": "https://changingminds.org/explanations/theories/looking-glass_self.htm",
+        "description": "we see ourselves\n    through the eyes of others."
+      },
+      {
+        "title": "Personal Validation \n  Fallacy",
+        "url": "https://changingminds.org/explanations/theories/person_validation.htm",
+        "description": "We agree with general positive descriptors of us."
+      },
+      {
+        "title": "Social Comparison Theory",
+        "url": "https://changingminds.org/explanations/theories/social_comparison.htm",
+        "description": "we learn\n    about ourselves by comparing with others."
+      },
+      {
+        "title": "Self-Perception Theory",
+        "url": "https://changingminds.org/explanations/theories/self-perception.htm",
+        "description": "we infer our\n    feelings from what we do."
+      },
+      {
+        "title": "Self-Monitoring Behavior",
+        "url": "https://changingminds.org/explanations/theories/self-monitoring.htm",
+        "description": "we are \n  affected by how others see us."
+      },
+      {
+        "title": "Two-Factor Theory of Emotion",
+        "url": "https://changingminds.org/explanations/theories/two-factor_emotion.htm",
+        "description": "We\n    deduce our nature from what we do and feel."
+      }
+    ]
   },
   {
     "title": "Understanding Others",
     "url": "https://changingminds.org/explanations/theories/a_people_meaning.htm",
-    "description": "How we make sense"
+    "description": "How we make sense \n  of other people.",
+    "theories": [
+      {
+        "title": "Actor-Observer Difference",
+        "url": "https://changingminds.org/explanations/theories/actor_observer.htm",
+        "description": "&nbsp;we see\n    others' behavior caused by disposition, ours by situation."
+      },
+      {
+        "title": "Correspondence Bias",
+        "url": "https://changingminds.org/explanations/theories/correspondence_bias.htm",
+        "description": "We\n    over-estimate dispositional factors over situational factors."
+      },
+      {
+        "title": "Correspondent Inference Theory",
+        "url": "https://changingminds.org/explanations/theories/correspondent_inference.htm",
+        "description": "&nbsp;we\n    assume unusual acts are due to disposition&nbsp;"
+      },
+      {
+        "title": "Covariation Model",
+        "url": "https://changingminds.org/explanations/theories/covariation_model.htm",
+        "description": "&nbsp;we look for\n    similarities to narrow down attribution in others."
+      },
+      {
+        "title": "Fundamental Attribution Error",
+        "url": "https://changingminds.org/explanations/theories/fundamental_attribution_error.htm",
+        "description": "&nbsp;we\n    overestimate dispositional factors."
+      },
+      {
+        "title": "Identifiable \nVictim Effect",
+        "url": "https://changingminds.org/explanations/theories/identifiable_victim.htm",
+        "description": "Empathizing with one more than many."
+      },
+      {
+        "title": "Positivity Effect",
+        "url": "https://changingminds.org/explanations/theories/positivity_effect.htm",
+        "description": "&nbsp;we make\n    situational attribution for those we like."
+      },
+      {
+        "title": "Scapegoat Theory",
+        "url": "https://changingminds.org/explanations/theories/scapegoat_theory.htm",
+        "description": "&nbsp;we like having\n    someone else to blame."
+      }
+    ]
   },
   {
     "title": "Discomfort",
     "url": "https://changingminds.org/explanations/theories/a_discomfort.htm",
-    "description": "How we handle discomfort."
+    "description": "How we handle discomfort.",
+    "theories": [
+      {
+        "title": "Cognitive Dissonance",
+        "url": "https://changingminds.org/explanations/theories/cognitive_dissonance.htm",
+        "description": "we try to\n    reduce the discomfort of dissonance."
+      },
+      {
+        "title": "Actor-Observer Difference",
+        "url": "https://changingminds.org/explanations/theories/actor_observer.htm",
+        "description": "&nbsp;others'\n    behavior caused by disposition, ours by situation."
+      },
+      {
+        "title": "Confirmation Bias",
+        "url": "https://changingminds.org/explanations/theories/confirmation_bias.htm",
+        "description": "we seek confirmation that\n    we made a good decision."
+      },
+      {
+        "title": "Disconfirmation bias",
+        "url": "https://changingminds.org/explanations/theories/disconfirmation_bias.htm",
+        "description": "Agreeing with what \n  supports beliefs and vice versa."
+      },
+      {
+        "title": "Escape Theory",
+        "url": "https://changingminds.org/explanations/theories/escape_theory.htm",
+        "description": "We seek to escape uncomfortable realities."
+      },
+      {
+        "title": "External Justification",
+        "url": "https://changingminds.org/explanations/theories/external_justification.htm",
+        "description": "we blame\n    our failures on external things."
+      },
+      {
+        "title": "Hindsight Bias",
+        "url": "https://changingminds.org/explanations/theories/hindsight_bias.htm",
+        "description": "we pretend we knew everything\n    all along."
+      },
+      {
+        "title": "Insufficient Punishment",
+        "url": "https://changingminds.org/explanations/theories/insufficient_punishment.htm",
+        "description": "&nbsp;we\n    devalue forbidden activity to reduce dissonance."
+      },
+      {
+        "title": "Informational Social Influence",
+        "url": "https://changingminds.org/explanations/theories/informational_social_influence.htm",
+        "description": "when we are uncertain we copy others."
+      },
+      {
+        "title": "Ironic Reversal",
+        "url": "https://changingminds.org/explanations/theories/ironic_reversal.htm",
+        "description": "we cannot avoid\n    thinking about things we want to avoid thinking about."
+      },
+      {
+        "title": "Minimal Justification Principle",
+        "url": "https://changingminds.org/explanations/theories/minimal_justification.htm",
+        "description": "we justify what can't be explained rationally."
+      },
+      {
+        "title": "Overjustification Effect",
+        "url": "https://changingminds.org/explanations/theories/overjustification.htm",
+        "description": "we attribute\n    too externally for some events."
+      },
+      {
+        "title": "Positivity Effect",
+        "url": "https://changingminds.org/explanations/theories/positivity_effect.htm",
+        "description": "we attribute\n    disposition to good things about ourselves."
+      },
+      {
+        "title": "Post-Decision Dissonance",
+        "url": "https://changingminds.org/explanations/theories/post-decision_dissonance.htm",
+        "description": "after a decision we think it was a good one.&nbsp;"
+      },
+      {
+        "title": "Prospect Theory",
+        "url": "https://changingminds.org/explanations/theories/prospect_theory.htm",
+        "description": "we value certain gains and\n    try to avoid certain losses."
+      },
+      {
+        "title": "Regret Theory",
+        "url": "https://changingminds.org/explanations/theories/regret_theory.htm",
+        "description": "we consider and try to\n    avoid future regret."
+      },
+      {
+        "title": "Risk Preference",
+        "url": "https://changingminds.org/explanations/theories/risk_preference.htm",
+        "description": "we seek risks around losses\n    and avoid risks around gains."
+      },
+      {
+        "title": "Selective Exposure",
+        "url": "https://changingminds.org/explanations/theories/selective_exposure.htm",
+        "description": "we avoid what\n    will cause dissonance about a decision."
+      },
+      {
+        "title": "Self-Discrepancy Theory",
+        "url": "https://changingminds.org/explanations/theories/self-discrepancy.htm",
+        "description": "we need\n    beliefs to be consistent."
+      },
+      {
+        "title": "Self-Serving Bias",
+        "url": "https://changingminds.org/explanations/theories/self-serving_bias.htm",
+        "description": "we take credit for\n    success and deny failure."
+      },
+      {
+        "title": "Social-Role Theory",
+        "url": "https://changingminds.org/explanations/theories/social_role.htm",
+        "description": "men and women fall into\n    expected roles."
+      }
+    ]
   },
   {
     "title": "Attribution",
     "url": "https://changingminds.org/explanations/theories/a_attribution.htm",
-    "description": "How we attribute cause."
+    "description": "How we attribute cause.",
+    "theories": [
+      {
+        "title": "Actor-Observer Difference",
+        "url": "https://changingminds.org/explanations/theories/actor_observer.htm",
+        "description": "&nbsp;we see\n    others' behavior caused by disposition, ours by situation."
+      },
+      {
+        "title": "Attribution Theory",
+        "url": "https://changingminds.org/explanations/theories/attribution_theory.htm",
+        "description": "&nbsp;we need to\n    attribute cause, that supports our ego."
+      },
+      {
+        "title": "Clustering Illusion",
+        "url": "https://changingminds.org/explanations/theories/clustering_illusion.htm",
+        "description": "Seeing patterns where \nthere are none."
+      },
+      {
+        "title": "Correspondence Bias",
+        "url": "https://changingminds.org/explanations/theories/correspondence_bias.htm",
+        "description": "We\n    over-estimate dispositional factors over situational factors."
+      },
+      {
+        "title": "Covariation Model",
+        "url": "https://changingminds.org/explanations/theories/covariation_model.htm",
+        "description": "&nbsp;we look for\n    similarities to narrow down attribution in others."
+      },
+      {
+        "title": "Correspondent Inference Theory",
+        "url": "https://changingminds.org/explanations/theories/correspondent_inference.htm",
+        "description": "&nbsp;we\n    assume unusual acts are due to disposition&nbsp;"
+      },
+      {
+        "title": "Fundamental Attribution Error",
+        "url": "https://changingminds.org/explanations/theories/fundamental_attribution_error.htm",
+        "description": "&nbsp;we\n    overestimate dispositional factors."
+      },
+      {
+        "title": "Just-world phenomenon",
+        "url": "https://changingminds.org/explanations/theories/just_world.htm",
+        "description": "Good and bad will be \n  rewarded and punished."
+      },
+      {
+        "title": "Locus of Control",
+        "url": "https://changingminds.org/explanations/preferences/locus_control.htm",
+        "description": "Control lies within me or is external."
+      },
+      {
+        "title": "Out-Group Homogeneity",
+        "url": "https://changingminds.org/explanations/theories/out-group_homogeneity.htm",
+        "description": "&nbsp;we see\n    out-group people as 'all the same'."
+      },
+      {
+        "title": "Overjustification Effect",
+        "url": "https://changingminds.org/explanations/theories/overjustification.htm",
+        "description": "we attribute\n    too externally for some events."
+      },
+      {
+        "title": "Perceptual Salience",
+        "url": "https://changingminds.org/explanations/theories/perceptual_salience.htm",
+        "description": "&nbsp;we\n    over-estimate important of available information."
+      },
+      {
+        "title": "Positivity Effect",
+        "url": "https://changingminds.org/explanations/theories/positivity_effect.htm",
+        "description": "&nbsp;we make\n    situational attribution for those we like."
+      },
+      {
+        "title": "The Pratfall Effect",
+        "url": "https://changingminds.org/explanations/theories/pratfall_effect.htm",
+        "description": "Being clumsy makes you likeable."
+      },
+      {
+        "title": "Scapegoat Theory",
+        "url": "https://changingminds.org/explanations/theories/scapegoat_theory.htm",
+        "description": "&nbsp;we like having\n    someone else to blame."
+      },
+      {
+        "title": "Self-Serving Bias",
+        "url": "https://changingminds.org/explanations/theories/self-serving_bias.htm",
+        "description": "we take credit for\n    success and deny failure."
+      },
+      {
+        "title": "Stereotypes",
+        "url": "https://changingminds.org/explanations/theories/stereotypes.htm",
+        "description": "&nbsp;we classify people in\n    broad groups."
+      },
+      {
+        "title": "Ultimate Attribution Error",
+        "url": "https://changingminds.org/explanations/theories/ultimate_attribution_error.htm",
+        "description": "we assume broad groups have similar disposition."
+      }
+    ]
   },
   {
     "title": "Forecasting",
     "url": "https://changingminds.org/explanations/theories/a_forecasting.htm",
-    "description": "How we forecast what will"
+    "description": "How we forecast what will \n  happen.",
+    "theories": [
+      {
+        "title": "Clustering Illusion",
+        "url": "https://changingminds.org/explanations/theories/clustering_illusion.htm",
+        "description": "Seeing patterns where \nthere are none."
+      },
+      {
+        "title": "Dilution Effect",
+        "url": "https://changingminds.org/explanations/theories/dilution_effect.htm",
+        "description": "information about others\nreduces stereotyping."
+      },
+      {
+        "title": "Expectancy Violations Theory",
+        "url": "https://changingminds.org/explanations/theories/expectancy_violations.htm",
+        "description": "&nbsp;we\n    have expectations of others' behavior, eg. body space."
+      },
+      {
+        "title": "False Consensus Effect",
+        "url": "https://changingminds.org/explanations/theories/false_consensus.htm",
+        "description": "&nbsp;we\n    overestimate how much people agree with us."
+      },
+      {
+        "title": "Halo Effect",
+        "url": "https://changingminds.org/explanations/theories/halo_effect.htm",
+        "description": "&nbsp;we generalize judgment\n    across traits."
+      },
+      {
+        "title": "Implicit Personality Theory",
+        "url": "https://changingminds.org/explanations/theories/implicit_personality.htm",
+        "description": "&nbsp;we\n    generalize expectation from a few central. traits."
+      },
+      {
+        "title": "Information Manipulation Theory",
+        "url": "https://changingminds.org/explanations/theories/information_manipulation.htm",
+        "description": "Breaking one of the four conversational maxims to persuade."
+      },
+      {
+        "title": "Interpersonal \nExpectancy Effect",
+        "url": "https://changingminds.org/explanations/theories/interpersonal_expectancy.htm",
+        "description": "Action is based on how we expect others to behave."
+      },
+      {
+        "title": "Interview Illusion",
+        "url": "https://changingminds.org/explanations/theories/interview_illusion.htm",
+        "description": "after a quick\ndiscussion, we believe we can predict many behaviors."
+      },
+      {
+        "title": "Outcome Dependency",
+        "url": "https://changingminds.org/explanations/theories/outcome_dependency.htm",
+        "description": "we are optimistic about \nothers when we need them to cooperate."
+      },
+      {
+        "title": "Out-Group Homogeneity",
+        "url": "https://changingminds.org/explanations/theories/out-group_homogeneity.htm",
+        "description": "&nbsp;we see\n    out-group people as 'all the same'."
+      },
+      {
+        "title": "Planning Fallacy",
+        "url": "https://changingminds.org/explanations/theories/planning_fallacy.htm",
+        "description": "We underestimate how long \n  things will take."
+      },
+      {
+        "title": "Planned Behavior Theory",
+        "url": "https://changingminds.org/explanations/theories/planned_behavior.htm",
+        "description": "the best\n    predictors of deliberate behavior."
+      },
+      {
+        "title": "Reciprocity Norm",
+        "url": "https://changingminds.org/explanations/theories/reciprocity_norm.htm",
+        "description": "expecting others to return\n    our favors."
+      },
+      {
+        "title": "Stereotypes",
+        "url": "https://changingminds.org/explanations/theories/stereotypes.htm",
+        "description": "&nbsp;we classify people in\n    broad groups."
+      },
+      {
+        "title": "Social Exchange Theory",
+        "url": "https://changingminds.org/explanations/theories/social_exchange.htm",
+        "description": "comparing give and\n    take in relationships."
+      },
+      {
+        "title": "Ultimate Attribution Error",
+        "url": "https://changingminds.org/explanations/theories/ultimate_attribution_error.htm",
+        "description": "we assume broad groups have similar disposition."
+      },
+      {
+        "title": "Valence Effect",
+        "url": "https://changingminds.org/explanations/theories/valence_effect.htm",
+        "description": "We tend to be optimistic."
+      }
+    ]
   },
   {
     "title": "Decision-making",
     "url": "https://changingminds.org/explanations/theories/a_decision.htm",
-    "description": "How we make decisions."
+    "description": "How we make decisions.",
+    "theories": [
+      {
+        "title": "Cognitive Dissonance",
+        "url": "https://changingminds.org/explanations/theories/cognitive_dissonance.htm",
+        "description": "we try to\n    reduce the discomfort of dissonance."
+      },
+      {
+        "title": "Consistency Theory",
+        "url": "https://changingminds.org/explanations/theories/consistency_theory.htm",
+        "description": "we seek the\n    comfort of internal alignment."
+      },
+      {
+        "title": "Commitment",
+        "url": "https://changingminds.org/explanations/theories/commitment.htm",
+        "description": "we feel obliged to complete a\n    public commitment."
+      },
+      {
+        "title": "Certainty Effect",
+        "url": "https://changingminds.org/explanations/theories/certainty_effect.htm",
+        "description": "a certainty that becomes\n    less likely has high impact."
+      },
+      {
+        "title": "Choice-supportive \nbias",
+        "url": "https://changingminds.org/explanations/theories/choice-supportive_bias.htm",
+        "description": "Distorting memories to make decisions seem good."
+      },
+      {
+        "title": "Confirmation Bias",
+        "url": "https://changingminds.org/explanations/theories/confirmation_bias.htm",
+        "description": "we seek confirmation that\n    we made a good decision."
+      },
+      {
+        "title": "Scarcity Principle",
+        "url": "https://changingminds.org/explanations/theories/scarcity_principle.htm",
+        "description": "we anticipate regret\n    and so want what is scarce.&nbsp;"
+      },
+      {
+        "title": "Sunk-Cost Effect",
+        "url": "https://changingminds.org/explanations/theories/sunk-cost_effect.htm",
+        "description": "we are reluctant to\n    pull out of an investment."
+      }
+    ]
   },
   {
     "title": "Decision errors",
     "url": "https://changingminds.org/explanations/theories/a_decision_error.htm",
-    "description": "Mistakes when we make"
+    "description": "Mistakes when we make \n  decisions.",
+    "theories": [
+      {
+        "title": "Ambiguity Effect",
+        "url": "https://changingminds.org/explanations/theories/ambiguity_effect.htm",
+        "description": "We prefer a known \nprobability to an unknown one."
+      },
+      {
+        "title": "Anchoring and Adjustment Heuristic",
+        "url": "https://changingminds.org/explanations/theories/anchoring_adjustment.htm",
+        "description": "we base estimates on known anchors."
+      },
+      {
+        "title": "Availability Heuristic",
+        "url": "https://changingminds.org/explanations/theories/availability_heuristic.htm",
+        "description": "recent\n    events seem more likely."
+      },
+      {
+        "title": "Bias Blind Spot",
+        "url": "https://changingminds.org/explanations/theories/bias_blind_spot.htm",
+        "description": "We do not compensate enough \nfor our own bias."
+      },
+      {
+        "title": "Bias \nCorrection",
+        "url": "https://changingminds.org/explanations/theories/bias_correction.htm",
+        "description": "Well-meaning over-compensation."
+      },
+      {
+        "title": "Biased sampling",
+        "url": "https://changingminds.org/explanations/theories/biased_sampling.htm",
+        "description": "We base decisions on\n    available small samples."
+      },
+      {
+        "title": "Bounded Rationality",
+        "url": "https://changingminds.org/explanations/theories/bounded_rationality.htm",
+        "description": "We only use \n  limited logic in decisions."
+      },
+      {
+        "title": "Conjunction Fallacy",
+        "url": "https://changingminds.org/explanations/theories/conjunction_fallacy.htm",
+        "description": "An overlap seems\n    twice as likely."
+      },
+      {
+        "title": "Disconfirmation bias",
+        "url": "https://changingminds.org/explanations/theories/disconfirmation_bias.htm",
+        "description": "Agreeing with what \n  supports beliefs and vice versa."
+      },
+      {
+        "title": "Endowment Effect",
+        "url": "https://changingminds.org/explanations/theories/endowment_effect.htm",
+        "description": "We value more highly\n    the things we own."
+      },
+      {
+        "title": "Focusing Effect",
+        "url": "https://changingminds.org/explanations/theories/focusing_effect.htm",
+        "description": "We pay more attention to some \n  things than others."
+      },
+      {
+        "title": "Gambler's Fallacy",
+        "url": "https://changingminds.org/explanations/theories/gamblers_fallacy.htm",
+        "description": "Belief we can predict \nrandom events."
+      },
+      {
+        "title": "Hot Hand Phenomenon",
+        "url": "https://changingminds.org/explanations/theories/hot_hand.htm",
+        "description": "Assuming success breeds success."
+      },
+      {
+        "title": "Illusory Correlation",
+        "url": "https://changingminds.org/explanations/theories/illusory_correlation.htm",
+        "description": "we see\n    correlation where it is not."
+      },
+      {
+        "title": "Mere \nThought Effect",
+        "url": "https://changingminds.org/explanations/theories/mere_thought.htm",
+        "description": "Thinking creates polarization."
+      },
+      {
+        "title": "Mood-Congruent Judgment",
+        "url": "https://changingminds.org/explanations/theories/mood_judgment.htm",
+        "description": "Our moods\n    bias&nbsp;our judgments."
+      },
+      {
+        "title": "Neglect of \nprobability bias",
+        "url": "https://changingminds.org/explanations/theories/neglect_probability.htm",
+        "description": "Ignoring probability; assuming certainty."
+      },
+      {
+        "title": "Optimism Bias",
+        "url": "https://changingminds.org/explanations/theories/optimism_bias.htm",
+        "description": "We assume we will be more \nsuccessful than others."
+      },
+      {
+        "title": "Overconfidence Barrier",
+        "url": "https://changingminds.org/explanations/theories/overconfidence_barrier.htm",
+        "description": "We are too\n    confident in our own judgments."
+      },
+      {
+        "title": "Prospect Theory",
+        "url": "https://changingminds.org/explanations/theories/prospect_theory.htm",
+        "description": "We value certain gains\n    and try to avoid certain losses."
+      },
+      {
+        "title": "Psychological Accounting",
+        "url": "https://changingminds.org/explanations/theories/psychological_accounting.htm",
+        "description": "We care \nabout direct outcomes. We also compare in ratios rather than absolute amounts."
+      },
+      {
+        "title": "Representativeness Heuristic",
+        "url": "https://changingminds.org/explanations/theories/representativeness_heuristic.htm",
+        "description": "We guess probability from a 'comparable' event."
+      },
+      {
+        "title": "Restraint Bias",
+        "url": "https://changingminds.org/explanations/theories/restraint_bias.htm",
+        "description": "Assuming we can control urges."
+      },
+      {
+        "title": "Social Judgment Theory",
+        "url": "https://changingminds.org/explanations/theories/social_judgment.htm",
+        "description": "&nbsp;We vary our\n    judgments about an anchor position."
+      },
+      {
+        "title": "Sunk-Cost Effect",
+        "url": "https://changingminds.org/explanations/theories/sunk-cost_effect.htm",
+        "description": "We are reluctant to\n    pull out of an investment."
+      },
+      {
+        "title": "Youth Bias",
+        "url": "https://changingminds.org/explanations/theories/youth_bias.htm",
+        "description": "Remembering when we were \n\tyoung."
+      }
+    ]
   },
   {
     "title": "Conforming",
     "url": "https://changingminds.org/explanations/theories/a_conforming.htm",
-    "description": "Conforming with social rules."
+    "description": "Conforming with social rules.",
+    "theories": [
+      {
+        "title": "Acquiescence Effect",
+        "url": "https://changingminds.org/explanations/theories/acquiescence_effect.htm",
+        "description": "We answer more in the \n  positive than negative."
+      },
+      {
+        "title": "Bystander Effect",
+        "url": "https://changingminds.org/explanations/theories/bystander_effect.htm",
+        "description": "&nbsp;the more\n    bystanders, the less likely it is one will help."
+      },
+      {
+        "title": "Consistency Theory",
+        "url": "https://changingminds.org/explanations/theories/consistency_theory.htm",
+        "description": "we seek the\n    comfort of internal alignment."
+      },
+      {
+        "title": "Commitment",
+        "url": "https://changingminds.org/explanations/theories/commitment.htm",
+        "description": "we feel obliged to complete a\n    public commitment."
+      },
+      {
+        "title": "Communication Accommodation Theory",
+        "url": "https://changingminds.org/explanations/theories/communication_accomodation.htm",
+        "description": "we morph to be like others."
+      },
+      {
+        "title": "Epistemological Weighting Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/epistemological_weighting.htm",
+        "description": "&nbsp;conformance\n    depends on how closely our norms match group norms."
+      },
+      {
+        "title": "Group Locomotion Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/group_locomotion_hypothesis.htm",
+        "description": "members are motivated to achieve group goals."
+      },
+      {
+        "title": "Groupthink",
+        "url": "https://changingminds.org/explanations/theories/groupthink.htm",
+        "description": "maintenance of group cohesion\n    becomes all-important."
+      },
+      {
+        "title": "Impression Management",
+        "url": "https://changingminds.org/explanations/theories/impression_management.htm",
+        "description": "we behave well\n    when we are being watched."
+      },
+      {
+        "title": "Informational Social Influence",
+        "url": "https://changingminds.org/explanations/theories/informational_social_influence.htm",
+        "description": "&nbsp;when\n    we don't know what to do, we copy others."
+      },
+      {
+        "title": "Just-world phenomenon",
+        "url": "https://changingminds.org/explanations/theories/just_world.htm",
+        "description": "Good and bad will be \n  rewarded and punished."
+      },
+      {
+        "title": "Normative Social Influence",
+        "url": "https://changingminds.org/explanations/theories/normative_social_influence.htm",
+        "description": "basic\n    group need forces us to conform."
+      },
+      {
+        "title": "Placebo \nEffect",
+        "url": "https://changingminds.org/explanations/theories/placebo_effect.htm",
+        "description": "We believe and respond to fakes."
+      },
+      {
+        "title": "Pluralistic Ignorance",
+        "url": "https://changingminds.org/explanations/theories/pluralistic_ignorance.htm",
+        "description": "sometimes most\npeople disagree with a group norm, but nobody speaks out."
+      },
+      {
+        "title": "Politeness Theory",
+        "url": "https://changingminds.org/explanations/theories/politeness.htm",
+        "description": "we act politely or rudely\n    depending on whether we care."
+      },
+      {
+        "title": "Reciprocity Norm",
+        "url": "https://changingminds.org/explanations/theories/reciprocity_norm.htm",
+        "description": "we need to return another's\n    favor."
+      },
+      {
+        "title": "Roles",
+        "url": "https://changingminds.org/explanations/theories/roles.htm",
+        "description": "we conform with shared expectations of behavior."
+      },
+      {
+        "title": "Self-Fulfilling Prophecy",
+        "url": "https://changingminds.org/explanations/theories/self-fulfilling_prophecy.htm",
+        "description": "acting how\n    we are treated."
+      },
+      {
+        "title": "Self-Monitoring Behavior",
+        "url": "https://changingminds.org/explanations/theories/self-monitoring.htm",
+        "description": "we are affected by \nhow others see us."
+      },
+      {
+        "title": "Social Desirability Bias",
+        "url": "https://changingminds.org/explanations/theories/social_desirability.htm",
+        "description": "we follow\n    social rules when we are watched."
+      },
+      {
+        "title": "Social Impact Theory",
+        "url": "https://changingminds.org/explanations/theories/social_impact.htm",
+        "description": "how we behave depends on\n    how many, etc. are watching."
+      },
+      {
+        "title": "Social Influence",
+        "url": "https://changingminds.org/explanations/theories/social_influence.htm",
+        "description": "How we are strongly \ninfluenced by others."
+      },
+      {
+        "title": "Social Learning Theory",
+        "url": "https://changingminds.org/explanations/theories/social_learning.htm",
+        "description": "we learn much by\n    watching others, thinking, then trying it out."
+      },
+      {
+        "title": "Social Norms",
+        "url": "https://changingminds.org/explanations/theories/social_norms.htm",
+        "description": "groups have rules that must be\n    followed.&nbsp;"
+      },
+      {
+        "title": "Spiral of Silence Theory",
+        "url": "https://changingminds.org/explanations/theories/spirals_silence.htm",
+        "description": "we keep quiet if we\n    are in the minority (and vice versa)."
+      },
+      {
+        "title": "Stockholm \nSyndrome",
+        "url": "https://changingminds.org/explanations/theories/stockholm_syndrome.htm",
+        "description": "becoming attached to captors."
+      },
+      {
+        "title": "Symbolic Convergence \nTheory",
+        "url": "https://changingminds.org/explanations/theories/symbolic_convergence.htm",
+        "description": "Seeking communities of agreement."
+      }
+    ]
   },
   {
     "title": "Being Contrary",
     "url": "https://changingminds.org/explanations/theories/a_contrary.htm",
-    "description": "Acting differently or in"
+    "description": "Acting differently or in \n  non-conforming ways.",
+    "theories": [
+      {
+        "title": "Compensation",
+        "url": "https://changingminds.org/explanations/theories/compensation.htm",
+        "description": "acting to disconfirm negative\n    perception from others."
+      },
+      {
+        "title": "Counter-Attitudinal Advocacy",
+        "url": "https://changingminds.org/explanations/theories/counter-attidudinal_advocacy.htm",
+        "description": "sometimes we say something we don't believe."
+      },
+      {
+        "title": "Counterfactual Thinking",
+        "url": "https://changingminds.org/explanations/theories/counterfactual_thinking.htm",
+        "description": "we can change\n    our own memories."
+      },
+      {
+        "title": "Expectancy Violations Theory",
+        "url": "https://changingminds.org/explanations/theories/expectancy_violations.htm",
+        "description": "going against behavioral expectations.&nbsp;"
+      },
+      {
+        "title": "Rationalization Trap",
+        "url": "https://changingminds.org/explanations/theories/rationalization_trap.htm",
+        "description": "justifications can\n    lead to silly or immoral acts."
+      },
+      {
+        "title": "Reactance Theory",
+        "url": "https://changingminds.org/explanations/theories/reactance.htm",
+        "description": "&nbsp;prevention of action\n    leads to action (to prove control)."
+      },
+      {
+        "title": "Urban-Overload Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/urban_overload.htm",
+        "description": "city life\n    leads to retreat and loneliness."
+      }
+    ]
   },
   {
     "title": "Helping Others",
     "url": "https://changingminds.org/explanations/theories/a_helping.htm",
-    "description": "Sometimes we are just very"
+    "description": "Sometimes we are just very \n  helpful.",
+    "theories": [
+      {
+        "title": "Contact Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/contact_hypothesis.htm",
+        "description": "bringing enemies\n    together increases understanding."
+      },
+      {
+        "title": "Equity Theory",
+        "url": "https://changingminds.org/explanations/theories/equity_theory.htm",
+        "description": "we are happiest when give and\n    take are equal."
+      },
+      {
+        "title": "Empathy-Altruism Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/empathy-altruism.htm",
+        "description": "if we\n    feel empathy we are likely to help."
+      },
+      {
+        "title": "Identifiable Victim Effect",
+        "url": "https://changingminds.org/explanations/theories/identifiable_victim.htm",
+        "description": "Empathizing with one more than many."
+      },
+      {
+        "title": "Love",
+        "url": "https://changingminds.org/explanations/theories/love.htm",
+        "description": "there are several styles of love."
+      },
+      {
+        "title": "Politeness Theory",
+        "url": "https://changingminds.org/explanations/theories/politeness.htm",
+        "description": "we act politely or rudely\n    depending on whether we care."
+      },
+      {
+        "title": "Prosocial Behavior",
+        "url": "https://changingminds.org/explanations/theories/prosocial_behavior.htm",
+        "description": "we sometimes\n    help without need for reward."
+      },
+      {
+        "title": "Social Exchange Theory",
+        "url": "https://changingminds.org/explanations/theories/social_exchange.htm",
+        "description": "perception of\n    relationships depends on fairness perception."
+      },
+      {
+        "title": "Stockholm \nSyndrome",
+        "url": "https://changingminds.org/explanations/theories/stockholm_syndrome.htm",
+        "description": "becoming attached to captors."
+      },
+      {
+        "title": "Terminating relationships",
+        "url": "https://changingminds.org/explanations/theories/terminating_relationships.htm",
+        "description": "relationships break down in stages.&nbsp;&nbsp;"
+      },
+      {
+        "title": "Reciprocity Norm",
+        "url": "https://changingminds.org/explanations/theories/reciprocity_norm.htm",
+        "description": "we need to return another's\n    favor."
+      }
+    ]
   },
   {
     "title": "Persuasion",
     "url": "https://changingminds.org/explanations/theories/a_persuading.htm",
-    "description": "Changing the minds of others."
+    "description": "Changing the minds of others.",
+    "theories": [
+      {
+        "title": "Amplification \nHypothesis",
+        "url": "https://changingminds.org/explanations/theories/amplification_hypothesis.htm",
+        "description": "Certainty hardens attitude."
+      },
+      {
+        "title": "Bait-and-switch",
+        "url": "https://changingminds.org/techniques/general/sequential/bait_switch.htm",
+        "description": "Great offer that never \n  happens."
+      },
+      {
+        "title": "Conversion \nTheory",
+        "url": "https://changingminds.org/explanations/theories/conversion_theory.htm",
+        "description": "Minorities can convert majority people."
+      },
+      {
+        "title": "Door In The Face (DITF)",
+        "url": "https://changingminds.org/techniques/general/sequential/ditf.htm",
+        "description": "Cause rejection then make \n  real offer."
+      },
+      {
+        "title": "Foot In The \nDoor (FITD)",
+        "url": "https://changingminds.org/techniques/general/sequential/fitd.htm",
+        "description": "Make small offer then increase."
+      },
+      {
+        "title": "Forced Compliance",
+        "url": "https://changingminds.org/explanations/theories/forced_compliance.htm",
+        "description": "Obligation to obey."
+      },
+      {
+        "title": "Identifiable \nVictim Effect",
+        "url": "https://changingminds.org/explanations/theories/identifiable_victim.htm",
+        "description": "Empathizing with one more than many."
+      },
+      {
+        "title": "Information Manipulation Theory",
+        "url": "https://changingminds.org/explanations/theories/information_manipulation.htm",
+        "description": "Breaking one of the four conversational maxims."
+      },
+      {
+        "title": "Persuasion",
+        "url": "https://changingminds.org/explanations/theories/persuasion.htm",
+        "description": "factors important in persuasion."
+      },
+      {
+        "title": "Priming",
+        "url": "https://changingminds.org/explanations/theories/priming.htm",
+        "description": "Setting up memory to be used later."
+      },
+      {
+        "title": "Reciprocity Norm",
+        "url": "https://changingminds.org/explanations/theories/reciprocity_norm.htm",
+        "description": "we feel obliged to\n    return favors.&nbsp;"
+      },
+      {
+        "title": "Scarcity Principle",
+        "url": "https://changingminds.org/explanations/theories/scarcity_principle.htm",
+        "description": "we want what is of\n    limited availability."
+      },
+      {
+        "title": "Sleeper Effect",
+        "url": "https://changingminds.org/explanations/theories/sleeper_effect.htm",
+        "description": "when persuasive messages\n    increase effectiveness over time."
+      },
+      {
+        "title": "Social Influence",
+        "url": "https://changingminds.org/explanations/theories/social_influence.htm",
+        "description": "How we are strongly \ninfluenced by others."
+      },
+      {
+        "title": "Subliminal Messages",
+        "url": "https://changingminds.org/explanations/theories/subliminal_messages.htm",
+        "description": "famous method that is\n    a sham."
+      },
+      {
+        "title": "Ultimate Terms",
+        "url": "https://changingminds.org/explanations/theories/ultimate_terms.htm",
+        "description": "some words are particularly\n    powerful."
+      },
+      {
+        "title": "Weak Ties Theory",
+        "url": "https://changingminds.org/explanations/theories/weak_ties.htm",
+        "description": "How far does influence go?"
+      },
+      {
+        "title": "Yale Attitude Change Approach",
+        "url": "https://changingminds.org/explanations/theories/yale_attitude_change.htm",
+        "description": "factors important in persuasion."
+      }
+    ]
   },
   {
     "title": "Resistance",
     "url": "https://changingminds.org/explanations/theories/a_resistance.htm",
-    "description": "Resisting attempts to persuade."
+    "description": "Resisting attempts to persuade.",
+    "theories": [
+      {
+        "title": "Compensation",
+        "url": "https://changingminds.org/explanations/theories/compensation.htm",
+        "description": "acting to disconfirm negative\n    perception from others."
+      },
+      {
+        "title": "Inoculation",
+        "url": "https://changingminds.org/explanations/theories/inoculation.htm",
+        "description": "a weak argument increases\n    ability to resist it."
+      },
+      {
+        "title": "Insufficient Punishment",
+        "url": "https://changingminds.org/explanations/theories/insufficient_punishment.htm",
+        "description": "we \n  devalue a resisted desired object."
+      }
+    ]
   },
   {
     "title": "Trust",
     "url": "https://changingminds.org/explanations/theories/a_trust.htm",
-    "description": "Building trust of others."
+    "description": "Building trust of others.",
+    "theories": [
+      {
+        "title": "Ben Franklin Effect",
+        "url": "https://changingminds.org/explanations/theories/ben_franklin_effect.htm",
+        "description": "when we do a\n    favor, we like them even more."
+      },
+      {
+        "title": "Communication Accommodation Theory",
+        "url": "https://changingminds.org/explanations/theories/communication_accomodation.htm",
+        "description": "we morph to be like others."
+      },
+      {
+        "title": "Contact Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/contact_hypothesis.htm",
+        "description": "bringing enemies\n    together helps make them friends."
+      },
+      {
+        "title": "Credibility",
+        "url": "https://changingminds.org/explanations/theories/credibility.htm",
+        "description": "factors which increase trust\n    and credibility."
+      },
+      {
+        "title": "Source Credibility",
+        "url": "https://changingminds.org/explanations/theories/source_credibility.htm",
+        "description": "Who we are likely to \n  believe."
+      },
+      {
+        "title": "Theory of Mind",
+        "url": "https://changingminds.org/explanations/theories/theory_of_mind.htm",
+        "description": "Guessing what they are thinking."
+      }
+    ]
   },
   {
     "title": "Leadership",
     "url": "https://changingminds.org/disciplines/leadership/theories/leadership_theories.htm",
-    "description": "Leading followers."
+    "description": "Leading followers.",
+    "theories": [
+      {
+        "title": "Great Man Theory",
+        "url": "https://changingminds.org/disciplines/leadership/theories/great_man_theory.htm"
+      },
+      {
+        "title": "Trait Theory",
+        "url": "https://changingminds.org/disciplines/leadership/theories/trait_theory.htm"
+      },
+      {
+        "title": "Behavioral Theories",
+        "url": "https://changingminds.org/disciplines/leadership/theories/behavioral_theory.htm"
+      },
+      {
+        "title": "Role Theory",
+        "url": "https://changingminds.org/disciplines/leadership/theories/role_theory.htm"
+      },
+      {
+        "title": "The Managerial Grid",
+        "url": "https://changingminds.org/disciplines/leadership/styles/managerial_grid.htm"
+      },
+      {
+        "title": "Participative Leadership",
+        "url": "https://changingminds.org/disciplines/leadership/styles/participative_leadership.htm"
+      },
+      {
+        "title": "Lewin's leadership styles",
+        "url": "https://changingminds.org/disciplines/leadership/styles/lewin_style.htm"
+      },
+      {
+        "title": "Likert's leadership styles",
+        "url": "https://changingminds.org/disciplines/leadership/styles/likert_style.htm"
+      },
+      {
+        "title": "Situational Leadership",
+        "url": "https://changingminds.org/disciplines/leadership/styles/situational_leadership.htm"
+      },
+      {
+        "title": "Hersey and \n  Blanchard's Situational Leadership",
+        "url": "https://changingminds.org/disciplines/leadership/styles/situational_leadership_hersey_blanchard.htm"
+      },
+      {
+        "title": "Vroom and Yetton's Normative Model",
+        "url": "https://changingminds.org/disciplines/leadership/theories/vroom_yetton.htm"
+      },
+      {
+        "title": "House's Path-Goal Theory of \n  Leadership",
+        "url": "https://changingminds.org/disciplines/leadership/styles/path_goal_leadership.htm"
+      },
+      {
+        "title": "Contingency Theories",
+        "url": "https://changingminds.org/disciplines/leadership/theories/contingency_theory.htm"
+      },
+      {
+        "title": "Fiedler's Least Preferred Co-worker (LPC) Theory",
+        "url": "https://changingminds.org/disciplines/leadership/theories/fiedler_lpc.htm"
+      },
+      {
+        "title": "Cognitive Resource Theory",
+        "url": "https://changingminds.org/disciplines/leadership/theories/cognitive_resource.htm"
+      },
+      {
+        "title": "Strategic Contingencies Theory",
+        "url": "https://changingminds.org/explanations/theories/strategic_contingencies.htm"
+      },
+      {
+        "title": "Transactional Leadership",
+        "url": "https://changingminds.org/disciplines/leadership/styles/transactional_leadership.htm"
+      },
+      {
+        "title": "Leader-Member Exchange (LMX) Theory",
+        "url": "https://changingminds.org/explanations/theories/leader_member_exchange.htm"
+      },
+      {
+        "title": "Transformational Leadership",
+        "url": "https://changingminds.org/disciplines/leadership/styles/transformational_leadership.htm"
+      },
+      {
+        "title": "Bass' Transformational Leadership \n  Theory",
+        "url": "https://changingminds.org/disciplines/leadership/theories/bass_transformational.htm"
+      },
+      {
+        "title": "Burns' Transformational Leadership \n  Theory",
+        "url": "https://changingminds.org/disciplines/leadership/theories/burns_transformational.htm"
+      },
+      {
+        "title": "Kouzes and Posner's Leadership \n  Participation Inventory",
+        "url": "https://changingminds.org/books/book_reviews/kouzes_posner.htm"
+      }
+    ]
   },
   {
     "title": "Lies",
     "url": "https://changingminds.org/explanations/theories/a_lies.htm",
-    "description": "Telling things that are not true."
+    "description": "Telling things that are not true.",
+    "theories": [
+      {
+        "title": "Four-factor Model",
+        "url": "https://changingminds.org/explanations/theories/four_factor_model.htm",
+        "description": "there are four \n  underlying things happening when people lie."
+      },
+      {
+        "title": "Information Manipulation Theory",
+        "url": "https://changingminds.org/explanations/theories/information_manipulation.htm",
+        "description": "Breaking one of the four conversational maxims to persuade."
+      },
+      {
+        "title": "Interpersonal Deception Theory",
+        "url": "https://changingminds.org/explanations/theories/interpersonal_deception.htm",
+        "description": "lying is a dynamic dance of liar and listener."
+      },
+      {
+        "title": "Placebo \nEffect",
+        "url": "https://changingminds.org/explanations/theories/placebo_effect.htm",
+        "description": "We believe and respond to fakes."
+      }
+    ]
   },
   {
     "title": "Power",
     "url": "https://changingminds.org/explanations/theories/a_power.htm",
-    "description": "Being able to achieve our goals."
+    "description": "Being able to achieve our goals.",
+    "theories": [
+      {
+        "title": "Coercion",
+        "url": "https://changingminds.org/explanations/theories/coercion.htm",
+        "description": "is acting to change a person's\n    behavior against their will."
+      },
+      {
+        "title": "Least Interest Principle",
+        "url": "https://changingminds.org/explanations/theories/least_interest.htm",
+        "description": "the person\n    with the least interest has most power."
+      },
+      {
+        "title": "Power",
+        "url": "https://changingminds.org/explanations/theories/power.htm",
+        "description": "is the ability to get a person to change their\n    behavior."
+      },
+      {
+        "title": "Social Exchange Theory",
+        "url": "https://changingminds.org/explanations/theories/social_exchange.htm",
+        "description": "give in order to get \nmore."
+      },
+      {
+        "title": "Strategic Contingencies Theory",
+        "url": "https://changingminds.org/explanations/theories/strategic_contingencies.htm",
+        "description": "power \ndepends on problem skill, centrality and uniqueness of skill."
+      }
+    ]
   },
   {
     "title": "Friendship",
     "url": "https://changingminds.org/explanations/theories/a_friendship.htm",
-    "description": "Making friends with others."
+    "description": "Making friends with others.",
+    "theories": [
+      {
+        "title": "Ben Franklin Effect",
+        "url": "https://changingminds.org/explanations/theories/ben_franklin_effect.htm",
+        "description": "after helping\n    another person we like them more."
+      },
+      {
+        "title": "Contact Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/contact_hypothesis.htm",
+        "description": "bringing enemies\n    together leads towards friendship."
+      },
+      {
+        "title": "Dilution Effect",
+        "url": "https://changingminds.org/explanations/theories/dilution_effect.htm",
+        "description": "information about others\nreduces stereotyping."
+      },
+      {
+        "title": "Empathy-Altruism Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/empathy-altruism.htm",
+        "description": "if we\n    feel empathy we are likely to help."
+      },
+      {
+        "title": "Friendship",
+        "url": "https://changingminds.org/explanations/theories/friendship.htm",
+        "description": "there are several factors that increase\n    chances of friendship."
+      },
+      {
+        "title": "Law of Attraction",
+        "url": "https://changingminds.org/explanations/theories/law_of_attraction.htm",
+        "description": "similar attitudes\n    leads to friendship.&nbsp;"
+      },
+      {
+        "title": "Matching Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/matching_hypothesis.htm",
+        "description": "romantic\n    partners tend to be similarly attractive.&nbsp;"
+      },
+      {
+        "title": "Mere Exposure Theory",
+        "url": "https://changingminds.org/explanations/theories/mere_exposure.htm",
+        "description": "exposure to people\n    increases liking."
+      },
+      {
+        "title": "The Pratfall Effect",
+        "url": "https://changingminds.org/explanations/theories/pratfall_effect.htm",
+        "description": "Being clumsy makes you likeable."
+      },
+      {
+        "title": "Propinquity Effect",
+        "url": "https://changingminds.org/explanations/theories/proprinquity_effect.htm",
+        "description": "meeting and\n    interacting increase chance of friendship."
+      },
+      {
+        "title": "Reinforcement-Affect Theory",
+        "url": "https://changingminds.org/explanations/theories/reinforcement-affect.htm",
+        "description": "both forms\n    of conditioning leads us to like others."
+      },
+      {
+        "title": "Repulsion Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/repulsion_hypothesis.htm",
+        "description": "we prefer\n    those with similar attitudes (and vice versa)."
+      }
+    ]
   },
   {
     "title": "Behavior",
     "url": "https://changingminds.org/explanations/theories/a_behavior.htm",
-    "description": "General behavioral responses."
+    "description": "General behavioral responses.",
+    "theories": [
+      {
+        "title": "Classical Conditioning",
+        "url": "https://changingminds.org/explanations/theories/classical_conditioning.htm",
+        "description": "&nbsp;a\n    repeated stimulus will trigger associated event."
+      },
+      {
+        "title": "Control Theory",
+        "url": "https://changingminds.org/explanations/theories/control.htm",
+        "description": "we seek to control the world around\nus."
+      },
+      {
+        "title": "Deindividuation",
+        "url": "https://changingminds.org/explanations/theories/deindividuation.htm",
+        "description": "losing our sense of self."
+      },
+      {
+        "title": "Ego Depletion",
+        "url": "https://changingminds.org/explanations/theories/ego_depletion.htm",
+        "description": "Controlling urges is exhausting."
+      },
+      {
+        "title": "Extended Parallel Process Model",
+        "url": "https://changingminds.org/explanations/theories/extended_parallel_process.htm",
+        "description": "&nbsp;threat\n    leads to danger- or fear-control."
+      },
+      {
+        "title": "Fatigue",
+        "url": "https://changingminds.org/explanations/theories/fatigue.htm",
+        "description": "The effects of tiredness."
+      },
+      {
+        "title": "Frustration-Aggression Theory",
+        "url": "https://changingminds.org/explanations/theories/frustration_aggression.htm",
+        "description": "&nbsp;when\nstopped from reaching goal, people turn to aggression."
+      },
+      {
+        "title": "Non-Verbal Behavior",
+        "url": "https://changingminds.org/explanations/theories/non-verbal_behavior.htm",
+        "description": "we communicate\n    hugely without words."
+      },
+      {
+        "title": "Operant Conditioning",
+        "url": "https://changingminds.org/explanations/theories/operant_conditioning.htm",
+        "description": "&nbsp;behavior\n    + reward = more behavior (and vice versa)."
+      },
+      {
+        "title": "Rationalization Trap",
+        "url": "https://changingminds.org/explanations/theories/rationalization_trap.htm",
+        "description": "&nbsp;dissonance\nreduction leads to silly or immoral actions."
+      },
+      {
+        "title": "Reactance Theory",
+        "url": "https://changingminds.org/explanations/theories/reactance.htm",
+        "description": "&nbsp;prevention of action\n    leads to action (to prove control)."
+      },
+      {
+        "title": "Realistic Conflict Theory",
+        "url": "https://changingminds.org/explanations/theories/realistic_conflict.htm",
+        "description": "&nbsp;limited\nresources leads to conflict."
+      },
+      {
+        "title": "Stockholm \nSyndrome",
+        "url": "https://changingminds.org/explanations/theories/stockholm_syndrome.htm",
+        "description": "becoming attached to captors."
+      },
+      {
+        "title": "Symbolic Interaction Theory",
+        "url": "https://changingminds.org/explanations/theories/symbolic_interaction.htm",
+        "description": "we interact\nwith meaning of symbols."
+      }
+    ]
   },
   {
     "title": "Groups",
     "url": "https://changingminds.org/explanations/theories/a_group.htm",
-    "description": "How groups think and act."
-  },
-  {
-    "title": "Clusters",
-    "url": "https://changingminds.org/explanations/theories/a_clusters.htm",
-    "description": "All theories in clusters of meaning"
+    "description": "How groups think and act.",
+    "theories": [
+      {
+        "title": "Epistemological Weighting Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/epistemological_weighting.htm",
+        "description": "&nbsp;conformance\n    depends on how closely our norms match group norms."
+      },
+      {
+        "title": "Conversion \nTheory",
+        "url": "https://changingminds.org/explanations/theories/conversion_theory.htm",
+        "description": "Minorities can convert majority people."
+      },
+      {
+        "title": "Group Locomotion Hypothesis",
+        "url": "https://changingminds.org/explanations/theories/group_locomotion_hypothesis.htm",
+        "description": "members are motivated to achieve group goals."
+      },
+      {
+        "title": "Groupthink",
+        "url": "https://changingminds.org/explanations/theories/groupthink.htm",
+        "description": "maintenance of group cohesion\n    becomes all-important."
+      },
+      {
+        "title": "Normative Social Influence",
+        "url": "https://changingminds.org/explanations/theories/normative_social_influence.htm",
+        "description": "basic\n    group need forces us to conform."
+      },
+      {
+        "title": "Politeness Theory",
+        "url": "https://changingminds.org/explanations/theories/politeness.htm",
+        "description": "we are nice where respect\n    is needed (and vice versa)."
+      },
+      {
+        "title": "Roles",
+        "url": "https://changingminds.org/explanations/theories/roles.htm",
+        "description": "we conform with shared expectations of behavior."
+      },
+      {
+        "title": "Social Impact Theory",
+        "url": "https://changingminds.org/explanations/theories/social_impact.htm",
+        "description": "conformance\n    increases with importance, immediacy and number of others."
+      },
+      {
+        "title": "Social Norms",
+        "url": "https://changingminds.org/explanations/theories/social_norms.htm",
+        "description": "groups have rules that must be\n    followed.&nbsp;"
+      },
+      {
+        "title": "Pluralistic Ignorance",
+        "url": "https://changingminds.org/explanations/theories/pluralistic_ignorance.htm",
+        "description": "sometimes most\npeople disagree with a group norm, but nobody speaks out."
+      }
+    ]
   }
 ]
