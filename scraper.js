@@ -1,6 +1,5 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
-const { parse } = require("path");
 
 (async () => {
   const [browser, page] = await initBrowserPage(
@@ -9,7 +8,7 @@ const { parse } = require("path");
 
   const root = await scrapeDisciplines(page);
   await scrapeTheories(page, root);
-
+  await scrapeTheoryDetails(page, root);
   writeResults(root);
 
   await browser.close();
@@ -39,6 +38,7 @@ async function scrapeDisciplines(page) {
  * @param {puppeteer.Page} page
  */
 async function scrapeTheories(page, disciplines) {
+  console.log("Scraping theories...");
   for (let i = 0; i < disciplines.length; i++) {
     const discipline = disciplines[i];
     await page.goto(discipline.url);
@@ -47,6 +47,26 @@ async function scrapeTheories(page, disciplines) {
     discipline.theories = await parseList(theoryListHandle);
   }
 }
+
+/**
+ * @param {pupeteer.Page} page
+ */
+async function scrapeTheoryDetails(page, root) {
+  console.log("Scraping theory details...");
+  for (let i = 0; i < root.length; i++) {
+    const discipline = root[i];
+    const theories = discipline.theories;
+    for (let j = 0; j < theories.length; j++) {
+      const theory = theories[j];
+      await page.goto(theory.url);
+      console.log(`scraping ${theory.url}...`);
+      const dataElemHandle = await page.$$("td");
+      const theoryDetails = await parseTheoryDetails(dataElemHandle[3]);
+      theory.details = theoryDetails;
+    }
+  }
+}
+
 /**
  *
  * @param {puppeteer.ElementHandle} listHandle
@@ -60,6 +80,26 @@ async function parseList(listHandle) {
     }));
   });
   return list;
+}
+
+function parseTheoryDetails(dataElemHandle) {
+  const theoryDetails = dataElemHandle.evaluate((dataElem) => {
+    const parsed = {};
+    let key;
+    for (let i = 0; i < dataElem.children.length; i++) {
+      const child = dataElem.children[i];
+      if (child.nodeName === "H2") {
+        key = child.innerText.toLowerCase();
+        parsed[key] = parsed[key] || "";
+      }
+
+      if (key && child.nodeName !== "H2") {
+        parsed[key] = parsed[key] + ". " + child.innerText;
+      }
+    }
+    return parsed;
+  });
+  return theoryDetails;
 }
 
 function writeResults(data) {
