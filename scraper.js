@@ -94,7 +94,7 @@ function parseTheoryDetails(dataElemHandle) {
       }
 
       if (key && child.nodeName !== "H2") {
-        parsed[key] = parsed[key] + ". " + child.innerText;
+        parsed[key] = parsed[key] + " \n" + child.innerText;
       }
     }
     return parsed;

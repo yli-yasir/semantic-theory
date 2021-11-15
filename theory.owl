@@ -1,0 +1,850 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yli-yasir/ontologies/theory.owl#"
+     xml:base="http://www.semanticweb.org/yli-yasir/ontologies/theory.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:theory="http://www.semanticweb.org/yli-yasir/ontologies/theory#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasCategory">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasComment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasComment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Comment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasGuestSubmitter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasGuestSubmitter">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasSubmitter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasPhenomena -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasPhenomena">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Phenomena"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRegisteredSubmitter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRegisteredSubmitter">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasSubmitter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRelatedTheory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRelatedTheory">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasSubmitter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasSubmitter">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#isSubmitterOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#isPhenomenaOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#isPhenomenaOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Phenomena"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#isSubmitterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#isSubmitterOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasContent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasContent">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteCount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteSum -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteSum">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#AcceptedTheory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#AcceptedTheory">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRating"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#TopRated"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#RejectedTheory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Attention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Attention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Attribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Attribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#BeingContrary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#BeingContrary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Belief -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Belief">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Attention"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Attribution"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Behavior"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#BeingContrary"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Belief"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Conforming"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#DecisionErrors"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#DecisionMaking"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Discomfort"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Emotion"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Forecasting"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Friendship"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Fun"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Groups"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#HelpingOthers"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Leadership"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Lies"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Meaning"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Memory"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Motivation"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Persuasion"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Power"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Resistance"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Science"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Trust"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Understanding"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Comment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Comment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasSubmitter"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#User"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasContent"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Conforming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Conforming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#CredibleUser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#CredibleUser">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#RegisteredUser"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRating"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#TopRated"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#DebatedTheory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#DebatedTheory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasComment"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">20</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Comment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#DecisionErrors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#DecisionErrors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#DecisionMaking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#DecisionMaking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Discomfort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Discomfort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Emotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Emotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Forecasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Forecasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Friendship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Friendship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Fun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Fun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Games -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Games">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Fun"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Movies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Groups -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Groups">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#GuestUser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#GuestUser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#User"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#RegisteredUser"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#HelpingOthers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#HelpingOthers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#InvisibleRating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#InvisibleRating">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteCount"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#VisibleRating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Leadership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Leadership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Lies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Lies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#LowRated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#LowRated">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteSum"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-20</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#TopRated"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Meaning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Meaning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Memory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Memory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Motivation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Motivation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Movies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Movies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Fun"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Persuasion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Persuasion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Phenomena -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Phenomena">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#isPhenomenaOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteCount"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteSum"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#RegisteredUser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#RegisteredUser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#User"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRating"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#RejectedTheory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#RejectedTheory">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasRating"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#LowRated"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Resistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Resistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasPhenomena"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Phenomena"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasSubmitter"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#User"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#TopRated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#TopRated">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteSum"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#Understanding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Understanding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#UnderstandingOthers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#UnderstandingOthers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Understanding"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#UnderstandingOurselves"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#UnderstandingOurselves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#UnderstandingOurselves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#Understanding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#User">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yli-yasir/ontologies/theory#VisibleRating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#VisibleRating">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yli-yasir/ontologies/theory#hasVoteCount"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Attention"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Attribution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Behavior"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#BeingContrary"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Belief"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Conforming"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#DecisionErrors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#DecisionMaking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Discomfort"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Emotion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Forecasting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Friendship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Fun"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Groups"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#HelpingOthers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Leadership"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Lies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Meaning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Memory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Persuasion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Power"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Resistance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Trust"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Understanding"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Category"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Comment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Phenomena"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Rating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#Theory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yli-yasir/ontologies/theory#User"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
