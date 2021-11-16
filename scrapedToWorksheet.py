@@ -6,13 +6,23 @@ scrapedDataFile = open("scraped.json", encoding="utf-8")
 
 scrapedData = json.load(scrapedDataFile)
 
-Theory = make_dataclass("Theory", [("name", str), ("description", str)])
+Theory = make_dataclass(
+    "Theory", [("name", str), ("title", str), ("description", str)])
 
-df = DataFrame([Theory("fat", "eat a lot")])
 
-df.to_excel('test.xlsx', sheet_name='sheet1', index=False)
+theories = []
 
-print(scrapedData[0]["theories"][0])
+for category in scrapedData:
+    for theory in category["theories"]:
+        name = theory["title"].replace(" ", "")
+        name = name if name.endswith("Theory") else name + "Theory"
+        theories.append(
+            Theory(name,
+                   theory["title"], theory["details"].get("description", "")))
+
+df = DataFrame(theories)
+
+df.to_excel('theories2.xlsx', sheet_name='sheet1', index=False)
 
 
 scrapedDataFile.close()
