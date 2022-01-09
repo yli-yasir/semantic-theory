@@ -1,0 +1,44 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX theory: <http://www.semanticweb.org/yli-yasir/ontologies/theory#>
+
+
+// get all categories
+
+SELECT ?category
+	WHERE { ?category rdfs:subClassOf theory:Category }
+
+
+
+// get all theories which fall under a certain category
+
+SELECT ?subject ?name
+	WHERE { ?subject theory:hasCategory ?category . 
+	                 ?subject theory:hasName ?name .
+                                         ?category  a theory:Motivation
+                                      }
+	ORDER BY ASC(?name)
+
+
+
+// get all theories that start with a certain name
+
+SELECT ?name ?description
+	WHERE { ?theory theory:hasName ?name .
+			?theory theory:hasDescription ?description
+            FILTER regex(?name,"^Co" )
+            }
+	ORDER BY ASC(?name)
+
+
+
+// get all theories with votes larger than a value
+
+SELECT ?name ?voteSum
+	WHERE { ?theory theory:hasName ?name .
+                                           ?theory theory:hasVoteSum ?voteSum
+                                          FILTER (?voteSum > 100)
+                                      }
+	ORDER BY DESC(?voteSum)

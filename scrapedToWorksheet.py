@@ -7,7 +7,7 @@ scrapedDataFile = open("scraped.json", encoding="utf-8")
 scrapedData = json.load(scrapedDataFile)
 
 Theory = make_dataclass(
-    "Theory", [("name", str), ("title", str), ("description", str)])
+    "Theory", [("name", str), ("title", str), ("description", str), ("category", str)])
 
 
 theories = []
@@ -18,7 +18,7 @@ for category in scrapedData:
         name = name if name.endswith("Theory") else name + "Theory"
         theories.append(
             Theory(name,
-                   theory["title"], theory["details"].get("description", "")))
+                   theory["title"], theory["details"].get("description", ""), category["title"]))
 
 df = DataFrame(theories)
 
